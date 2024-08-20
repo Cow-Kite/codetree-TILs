@@ -1,3 +1,4 @@
 a, b = map(int, input().split(" "))
 
-print(max(a, b))
+num = a if a > b else b
+print(num)
