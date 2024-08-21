@@ -1,8 +1,6 @@
-a, b, c = map(int, input().split(" "))
+arr = input().split(" ")
+arr[0] = int(arr[0])
+arr[1] = int(arr[1])
+arr[2] = int(arr[2])
 
-if a >= b and a >=c:
-    print(a)
-elif b >= a and b >= c:
-    print(b)
-else:
-    print(c)
+print(max(arr[0], arr[1], arr[2]))
