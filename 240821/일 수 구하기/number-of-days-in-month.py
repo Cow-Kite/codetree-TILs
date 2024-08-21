@@ -1,8 +1,16 @@
+# 변수 선언, 입력
 n = int(input())
 
+# 출력
 if n == 2:
-    print(28)
-elif n == (1 or 3 or 5 or 7 or 8 or 10 or 11):
-    print(31)
+	print("28")
+elif n <= 7:
+    if n % 2 == 1:
+        print("31")
+    else:
+        print("30")
 else:
-    print(30)
+    if n % 2 == 0:
+        print("31")
+    else:
+        print("30")
