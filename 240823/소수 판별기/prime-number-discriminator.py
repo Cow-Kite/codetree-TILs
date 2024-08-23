@@ -1,7 +1,7 @@
 n = int(input())
-sentiment = False
-for i in range(1, n):
+sentiment = True
+for i in range(2, n):
     if n % i == 0:
-        sentiment = True
+        sentiment = False
 
 print('P') if sentiment == True else print('C')
