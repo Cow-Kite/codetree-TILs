@@ -1,8 +1,14 @@
 n = int(input())
 
-arr = map(int, input().split())
+arr = list(map(int, input().split()))
+arr.sort()
 
-for i in arr:
-    for j in range(1, arr+1):
-        if i % j == 0:
-            print(j)
+if n == 2:
+    for i in range(1, arr[0]+1):
+        if arr[0] % i == 0 and arr[1] % i == 0:
+            print(i)
+
+if n == 3:
+    for i in range(1, arr[0]+1):
+        if arr[0] % i == 0 and arr[1] % i == 0 and arr[2] % i == 0:
+            print(i)
