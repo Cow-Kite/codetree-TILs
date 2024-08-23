@@ -16,4 +16,5 @@ if k == 2:
 if k == 3:
     for i in range(1, n+1):
         for j in range(i, i+n+1):
-            print(f'{j+1} ')
+            print(f'{j*i} ', end="")
+        print()
