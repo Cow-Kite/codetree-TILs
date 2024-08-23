@@ -7,3 +7,5 @@ else:
 
 if arr[0] == arr[1] == arr[2]:
     print(1)
+else:
+    print(0)
