@@ -1,8 +1,8 @@
-arr = list(map(int, input().split(' ')))
+arr = list(map(int, input().split()))
 
 hap = 0
 cnt = 0
-for num in arr[:]:
+for num in arr:
     if num >= 250:
         break
     hap += num    
