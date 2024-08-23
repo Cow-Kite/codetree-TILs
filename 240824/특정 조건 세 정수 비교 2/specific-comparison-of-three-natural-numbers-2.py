@@ -1,6 +1,6 @@
 arr = list(map(int, input().split()))
 
-if arr[1] > arr[0] or arr[1] > arr[2]:
+if arr[1] > arr[0] and arr[1] > arr[2]:
     print(1, end=" ")
 else:
     print(0, end=" ")
