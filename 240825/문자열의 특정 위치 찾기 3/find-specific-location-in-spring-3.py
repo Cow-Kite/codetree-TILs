@@ -5,4 +5,7 @@ for char in str1:
     if char == c:
         break
     cnt += 1
-print(cnt)
+if cnt == 0:
+    print('Not Found')
+else:
+    print(cnt)
