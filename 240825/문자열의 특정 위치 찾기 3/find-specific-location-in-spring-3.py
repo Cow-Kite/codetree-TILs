@@ -5,7 +5,7 @@ for char in str1:
     if char == c:
         break
     cnt += 1
-if cnt == 0:
+if cnt == len(str1):
     print('Not Found')
 else:
     print(cnt)
