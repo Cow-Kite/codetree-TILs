@@ -4,7 +4,7 @@ cnt = 0
 hap = 0
 even = 2
 
-while num >= n:
+while num > n:
     num -= even
     hap += even
     cnt += 1
