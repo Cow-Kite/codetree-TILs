@@ -1,5 +1,7 @@
 str1 = input()
-num = len(str1)
-if num % 2 != 0:
-    num -= 1
-print(str1[num::-2])
+str2 = ""
+
+for i in range(1, len(str1), 2):
+    str2 += str1[i]
+
+print(str2[-1::-1])
