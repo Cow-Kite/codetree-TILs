@@ -7,7 +7,7 @@ A = input()
 dap = []
 cnt = 0
 for elem in string:
-    if elem[-1] == A:
+    if elem.endswith(A):
         cnt += 1
         dap.append(elem)
 
