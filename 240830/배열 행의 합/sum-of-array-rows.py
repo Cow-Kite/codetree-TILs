@@ -5,6 +5,6 @@ for _ in range(5):
 
 for i in range(5):
     hap = 0
-    for j in range(len(arr[i])):
-        hap += arr[i][j]
+    for j in arr[i]:
+        hap += j
     print(hap)
