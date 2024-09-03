@@ -1,5 +1,5 @@
 string, a = input().split()
-if string.find(a):
-    print(string.find(a))
-else:
+if string.find(a) == -1:
     print('No')
+else:
+    print(string.find(a))
